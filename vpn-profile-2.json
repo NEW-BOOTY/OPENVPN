@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "default": {
+      "server": "vpn.example.com",
+      "port": 1194,
+      "proto": "udp",
+      "username": "your-username",
+      "password": "your-password",
+      "ca_cert": "-----BEGIN CERTIFICATE-----\n...CA cert...\n-----END CERTIFICATE-----",
+      "client_cert": "-----BEGIN CERTIFICATE-----\n...Client cert...\n-----END CERTIFICATE-----",
+      "client_key": "-----BEGIN PRIVATE KEY-----\n...Private key...\n-----END PRIVATE KEY-----"
+    }
+  }
+}
