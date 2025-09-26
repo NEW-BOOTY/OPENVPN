@@ -1,0 +1,4 @@
+chmod +x vpn-launch.sh
+./vpn-launch.sh --profile work
+./vpn-launch.sh --profile personal --rotate-auth
+./vpn-launch.sh --verbose
